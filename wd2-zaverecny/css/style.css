@@ -1,0 +1,570 @@
+@import url("https://fonts.googleapis.com/css?family=Staatliches&display=swap&subset=latin-ext");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Staatliches', cursive;
+    background-color: #000000;
+}
+.part {
+    background-color: #000000;
+}
+.filler {
+    background-color: #000000;
+    color: #000000;
+    width: 100%;
+    height: 15vh;
+}
+.subpages {
+    width: 100%;
+    height: 30vh;
+    background-color: #000000;
+}
+.one {
+    width: 100%;
+    height: 101vh;
+    font-family: 'Staatliches', cursive;
+    color: white;
+    text-decoration: none;
+    background-color: #000000;
+    border-bottom: white 5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/blackdark.png");
+    z-index: -5;
+}
+.one h1 {
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    z-index: 50;
+}
+.one h1 a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    z-index: 50;
+}
+.one h2 {
+    font-size: 30px;
+    margin: 15px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: transparent;
+    z-index: 50;
+}
+.two .anotherline {
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    z-index: 51;
+}
+.two {
+    height: 100vh;
+    font-family: 'Staatliches', cursive;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    color: white;
+    z-index: -500;
+    background-size: 100%;
+}
+.two h2 {
+    font-size: 140px;
+    bottom: 200px;
+    color: #bb0000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: white 5px solid;
+}
+.two p {
+    color: white;
+    font-size: 40px;
+    margin: 5px;
+}
+.two p a {
+    text-decoration: none;
+    color: #bb0000;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.text h1 {
+    font-size: 50px;
+    margin: 10px;
+}
+.hi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+}
+.ps {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    line-height: 50px;
+    margin-top: 20px;
+}
+.psmagazine {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.magazine {
+    margin-right: 50px;
+    padding-right: 50px;
+    margin-top: 25px;
+}
+.special {
+    text-decoration: none;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+}
+.four {
+    background-color: #000000;
+    margin-top: 60px;
+    position: relative;
+    top: 120px;
+}
+.four h2 {
+    font-family: 'Staatliches', cursive;
+    color: #bb0000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: white 5px solid;
+    border-top: white 5px solid;
+    font-size: 140px;
+}
+.subps {
+    height: 200px;
+    background-color: transparent;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    padding-top: 50px;
+    margin-left: 50px;
+}
+.four p {
+    font-family: 'Staatliches', cursive;
+    color: white;
+    font-size: 40px;
+    margin: 5px;
+    margin-left: 50px;
+    background-color: #000000;
+}
+.moretext img {
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+    padding-left: 60px;
+}
+.button {
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.four .button h3 {
+    color: white;
+    font-size: 40px;
+    border-bottom: white 5px solid;
+    font-family: 'Staatliches', cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.button h3 a {
+    font-family: 'Staatliches', cursive;
+    color: white;
+    text-decoration: none;
+    background-color: #bb0000;
+    padding: 5px;
+}
+.button h3 a:hover {
+    background-color: white;
+    color: #bb0000;
+}
+.button .pee {
+    margin-left: 5px;
+}
+.end {
+    background-color: #000000;
+    height: 800px;
+    color: white;
+    font-family: 'Staatliches', cursive;
+}
+.end .line5 {
+    width: 100%;
+    height: 5px;
+    background-color: white;
+}
+.othersubpages {
+    font-size: 30px;
+}
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 20px;
+    background-color: transparent;
+    height: 300px;
+    padding-top: 50px;
+}
+.options p {
+    margin: 20px;
+    padding: 20px;
+}
+.options a {
+    color: #bb0000;
+    font-family: 'Staatliches', cursive;
+    text-decoration: none;
+    background-color: transparent;
+}
+.options .first:hover, .second:hover, .third:hover, .idk:hover, .sourcea:hover {
+    /*background-color: #333333;*/
+    background-color: #ffffff;
+}
+.links {
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+    margin: 5px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.links li {
+    padding: 3px;
+    margin: 5px;
+    width: 35%;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+    padding-left: 50px;
+}
+.links li a {
+    font-size: 1.3rem;
+}
+.links ol {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+/*subgenres*//*subgenres*//*subgenres*//*subgenres*//*subgenres*//*subgenres*//*subgenres*//*subgenres*//*subgenres*/
+.pic {
+    background-image: url("../images/toolbigdark.jpg");
+    height: 101vh;
+    background-size: 100%;
+    z-index: -50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-bottom: white 5px solid;
+}
+.name {
+    background-color: transparent;
+}
+.name a {
+    font-family: 'Staatliches', cursive;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+}
+.line6 {
+    height: 5px;
+    background-color: white;
+}
+.starter {
+    color: white;
+    font-size: 40px;
+    height: 250px;
+    background-color: #000000;
+    font-family: 'Staatliches', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.starter p {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+.five {
+    height: 1600px;
+    margin-left: 50px;
+    padding-left: 50px;
+}
+.five h2 {
+    color: #00bb00;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 70px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    z-index: 45;
+    width: 40%;
+}
+.five p {
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 70%;
+}
+.five a {
+    color: #00bb00;
+    text-decoration: none;
+}
+.progressive {
+    margin-top: 50px;/*more space*/
+}
+.progressive h2 {
+    font-size: 70px;
+    color: #00bb00;
+}
+.progressive p {
+    color: white;
+    font-size: 40px;
+}
+.othersubpagesfour .options p a {
+    color: #00bb00;
+    font-size: 30px;
+}
+.aaa {
+    margin-top: 50px;
+    margin-right: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+.aaa p {
+    font-size: 30px;
+    align-items: flex-end;
+    margin-bottom: 25px;
+}
+/*myths*//*myths*//*myths*//*myths*//*myths*//*myths*//*myths*//*myths*//*myths*//*myths*//*myths*//*myths*//*myths*/
+.myths {
+    background-image: url("../images/forest.jpg");
+    height: 101vh;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-bottom: white 5px solid;
+}
+.myths .main a {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+.main {
+    background-color: transparent;
+    font-size: 150px;
+}
+.othersubpagestwo .options p a {
+    color: white;
+    font-size: 30px;
+}
+.talk {
+    width: 80%;
+    margin-left: 50px;
+    padding-left: 50px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.talk h2 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 25px;
+}
+.talk p {
+    color: white;
+    font-size: 40px;
+}
+/*recommended*//*recommended*//*recommended*//*recommended*//*recommended*//*recommende*//*recommended*//*recommended*//*recommended*/
+.recommended {
+    height: 101vh;
+    border-bottom: white 5px solid;
+    background-image: url("../images/bluetool.jpg");
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    background-size: 50%;
+    z-index: -500;
+}
+.recommended a {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+.everything {
+    color: white;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+.everything h2 {
+    color: #0098ee;
+}
+.everything .intro {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.playable {
+    opacity: 0.6;
+    padding: 5px;
+}
+.playable:hover {
+    opacity: 1.0;
+}
+.othergenres {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 50px;
+    margin-left: 50px;
+}
+.othergenres h2 {
+    margin-bottom: 50px;
+}
+.othergenres p {
+    margin-bottom: 8px;
+}
+.overgenres {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+.imggenres {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    width: 700px;
+}
+.imggenres img {
+    width: 70%;
+    height: 85%;
+    margin-top: 50px;
+    padding-top: 50px;
+    margin-left: 50px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.rap, .pop, .classical, .funkjazz {
+    margin-top: 25px;
+    margin-bottom: 25px;
+} 
+.rap p, .pop p, .classical p, .funkjazz p {
+    margin-left: 25px;
+}
+.othersubpagesthree .options p a {
+    color: #0098ee;
+    font-size: 30px;
+}
+.popplay, .rapplay, .classicalplay, .jazzplay {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+.othersubpagesthree {
+    margin-top: 50px;
+    padding-top: 50px;
+    height: 400px;
+}
+.secondimg {
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-left: 50px;
+}
+.secondimg img {
+    margin-top: 50px;
+    padding-top: 50px;
+}
+/*youtubesource*//*youtubesource*//*youtubesource*//*youtubesource*//*youtubesource*//*youtubesource*//*youtubesource*//*youtubesource*//*youtubesource*/
+.othersubpagesfive {
+    color: #bb0000;
+    font-family: 'Staatliches', cursive;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 30px;
+}
+.youtube {
+    color: white;
+    margin-left: 50px;
+    padding-left: 50px;
+    margin-top: 50px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.youtube h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.jared {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.jaredtext {
+    margin: 30px;
+}
+.jaredtext a {
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+}
+.jaredtext p {
+    font-size: 30px;
+}
+.jaredimg img {
+    margin-left: 40px;
+}
+.steviet {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+.stevietext {
+    margin: 30px;
+}
+.stevietext a {
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+}
+.stevietext p {
+    font-size: 30px;
+}
+.h2 {
+    font-size: 40px;
+}
